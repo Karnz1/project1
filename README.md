@@ -1,3 +1,5 @@
+project flow:
+
 Developer pushes code
     ↓
 GitHub Actions CI runs
