@@ -6,9 +6,7 @@ RUN useradd -m appuser
 
 COPY requirements.txt .
 
-RUN pip install requests
-
-#RUN pip install --no-cache-dir . && pip check
+RUN pip install --no-cache-dir . && pip check
 
 COPY app ./app
 
